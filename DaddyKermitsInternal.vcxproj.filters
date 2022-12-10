@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Entry.cpp" />
+    <ClCompile Include="FNamePool.h">
+      <Filter>Decryption</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="decryption.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="hook.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="memory.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Canvas.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="unrealengine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="valorant.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Unreal.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Alignments.h">
+      <Filter>Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="Decryptor.h">
+      <Filter>Decryption</Filter>
+    </ClInclude>
+    <ClInclude Include="discord_rpc.h">
+      <Filter>RPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{0ff10ebb-01d8-4b4e-9e0a-b32145221c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{b63e63fe-d5ad-4d81-a447-37a2d7ea0813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Authentication">
+      <UniqueIdentifier>{36659c19-e21f-4e6a-a0b6-38055fcbe2a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Decryption">
+      <UniqueIdentifier>{a71d89b5-403c-4366-a46c-c9163a4ba2ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RPC">
+      <UniqueIdentifier>{6041810d-05f2-4fe2-8ada-1a0bd9d4ec5c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="discord-rpc.lib">
+      <Filter>RPC</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
