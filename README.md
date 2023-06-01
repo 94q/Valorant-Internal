@@ -34,11 +34,7 @@
 
 ---
 
-  <p align="center">
-    <a href="https://discord.com/users/962246843272671262">
-        <img title="Icebear's Discord" alt="Fnoberz's discord" src="https://discord.c99.nl/widget/theme-4/962246843272671262.png"/>
-    </a>
-</p> 
+
  
 ##   <p align="center">  Copyright © 2022 
 
